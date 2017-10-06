@@ -1,0 +1,19 @@
+/* selector {property:value;} */
+nav { border: 1px solid red;}
+
+#indexpage .mainnavigation li:nth-child(1) {background-color: yellow;}
+#portfoliopage .mainnavigation li:nth-child(2) {background-color: yellow;}
+#aboutpage .mainnavigation li:nth-child(3) {background-color: yellow;}
+
+#form1 {
+  width: 25%;
+	min-height: 50%;
+	padding:0 12px 0 12px;
+	margin: 5% 0 0 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	border: 1px solid #dedede;
+  z-index: 10000;
+	position:absolute;
+	left: 60%;
+	top: 250px;
+}
